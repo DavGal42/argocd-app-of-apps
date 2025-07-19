@@ -9,26 +9,32 @@ This project is a **GitOps-style deployment** of the [Example Voting App](https:
 ```
 VoteApp/
 ├── app-of-apps.yml
-└── apps
-    ├── db
-    │   ├── app.yml
-    │   ├── db-deployment.yaml
-    │   └── db-service.yaml
-    ├── redis
-    │   ├── app.yml
-    │   ├── redis-deployment.yaml
-    │   └── redis-service.yaml
-    ├── result
-    │   ├── app.yml
-    │   ├── result-deployment.yaml
-    │   └── result-service.yaml
-    ├── vote
-    │   ├── app.yml
-    │   ├── vote-deployment.yaml
-    │   └── vote-service.yaml
-    └── worker
-        ├── app.yml
-        └── worker-deployment.yaml
+├── apps
+│   ├── db
+│   │   ├── app.yml
+│   │   ├── db-deployment.yaml
+│   │   ├── db-service.yaml
+│   │   └── namespace.yml
+│   ├── redis
+│   │   ├── app.yml
+│   │   ├── namespace.yml
+│   │   ├── redis-deployment.yaml
+│   │   └── redis-service.yaml
+│   ├── result
+│   │   ├── app.yml
+│   │   ├── namespace.yml
+│   │   ├── result-deployment.yaml
+│   │   └── result-service.yaml
+│   ├── vote
+│   │   ├── app.yml
+│   │   ├── namespace.yml
+│   │   ├── vote-deployment.yaml
+│   │   └── vote-service.yaml
+│   └── worker
+│       ├── app.yml
+│       ├── namespace.yml
+│       └── worker-deployment.yaml
+└── README.md
 ```
 
 ---
