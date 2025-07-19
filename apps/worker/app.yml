@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: vote
+  name: worker
   namespace: argocd
 spec:
   project: default
