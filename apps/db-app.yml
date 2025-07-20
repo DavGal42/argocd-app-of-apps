@@ -1,19 +1,18 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: redis
+  name: db
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/DavGal42/argocd-app-of-apps.git
     targetRevision: HEAD
-    path: apps/redis
+    path: db
   destination:
     server: https://kubernetes.default.svc
-    namespace: redis
+    namespace: db
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
-

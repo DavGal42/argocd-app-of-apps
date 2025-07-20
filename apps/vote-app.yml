@@ -1,18 +1,19 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: db
+  name: vote
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/DavGal42/argocd-app-of-apps.git
     targetRevision: HEAD
-    path: apps/db
+    path: vote
   destination:
     server: https://kubernetes.default.svc
-    namespace: db
+    namespace: vote
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
+
