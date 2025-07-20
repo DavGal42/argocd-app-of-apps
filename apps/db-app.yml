@@ -11,7 +11,7 @@ spec:
     path: db
   destination:
     server: https://kubernetes.default.svc
-    namespace: db
+    namespace: default
   syncPolicy:
     automated:
       prune: true

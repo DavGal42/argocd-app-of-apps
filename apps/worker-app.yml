@@ -11,7 +11,7 @@ spec:
     path: worker
   destination:
     server: https://kubernetes.default.svc
-    namespace: worker
+    namespace: default
   syncPolicy:
     automated:
       prune: true

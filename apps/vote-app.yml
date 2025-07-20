@@ -11,7 +11,7 @@ spec:
     path: vote
   destination:
     server: https://kubernetes.default.svc
-    namespace: vote
+    namespace: default
   syncPolicy:
     automated:
       prune: true
