@@ -10,7 +10,7 @@ This project is a **GitOps-style deployment** of the [Example Voting App](https:
 
 ## Project Structure
 
-```
+```bash
 VoteApp/
 ├── app-of-apps.yml
 ├── apps
@@ -53,13 +53,13 @@ VoteApp/
 ## Deployment Guide
 ### 1. Install ArgoCD
 
-```
+```bash
 kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 
 ### 2. Create App of Apps
 
-```
+```bash
 kubectl create -f app-of-apps.yml -n argocd
 ```
