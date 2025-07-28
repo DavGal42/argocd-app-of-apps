@@ -1,4 +1,4 @@
-# VoteApp — ArgoCD App of Apps Demo with Kubernetes
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Ballot Box With Ballot.webp" alt="Ballot Box With Ballot" width="50" height="50" /> VoteApp — ArgoCD App of Apps Demo with Kubernetes
 
 This project is a **GitOps-style deployment** of the [Example Voting App](https://github.com/dockersamples/example-voting-app) using **ArgoCD** with the **App of Apps** pattern.
 
@@ -8,7 +8,7 @@ This project is a **GitOps-style deployment** of the [Example Voting App](https:
 <img width="600" height="400" alt="Screenshot from 2025-07-20 12-45-52" src="https://github.com/user-attachments/assets/4619a983-4a49-4482-8e6a-861162c29ad2" />
 <img width="600" height="400" alt="Screenshot from 2025-07-20 12-46-02" src="https://github.com/user-attachments/assets/469269bc-de56-4299-bc82-a24471b56a05" />
 
-## Project Structure
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Card Index Dividers.webp" alt="Card Index Dividers" width="30" height="30" /> Project Structure
 
 ```bash
 VoteApp/
@@ -38,7 +38,7 @@ VoteApp/
 
 ---
 
-## Components
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Toolbox.webp" alt="Toolbox" width="30" height="30" /> Components
 
 | Component | Description                       | Language    |
 |-----------|-----------------------------------|-------------|
@@ -50,7 +50,7 @@ VoteApp/
 
 ---
 
-## Deployment Guide
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel and Places/Rocket.webp" alt="Rocket" width="30" height="30" /> Deployment Guide
 ### 1. Install ArgoCD
 
 ```bash
